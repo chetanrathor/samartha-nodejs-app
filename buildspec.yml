@@ -23,4 +23,5 @@ phases:
       - printf '[{"name":"samartha-node-app","imageUri":"%s"}]' $REPOSITORY_URI:$IMAGE_TAG > imagedefinitions.json
 
 artifacts:
-  files: imagedefinitions.json
+  files: 
+  - imagedefinitions.json
