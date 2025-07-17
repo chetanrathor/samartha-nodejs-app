@@ -1,5 +1,5 @@
 # Use Node.js base image
-FROM node:18-alpine
+FROM public.ecr.aws/docker/library/node:20.19.4-alpine3.22
 
 # Set working directory
 WORKDIR /app
