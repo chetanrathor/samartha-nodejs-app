@@ -11,5 +11,5 @@ app.get('/my', (req, res) => {
 });
 
 app.listen(PORT, () => {
-  console.log(`CHTE  sasa       dhsjdhsd   FADAS Server is running on http://localhost:${PORT}`);
+  console.log(`CHTE  sasadd       dhsjdhsd   FADAS Server is running on http://localhost:${PORT}`);
 });
